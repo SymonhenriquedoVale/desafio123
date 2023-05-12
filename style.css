@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  background: #fff;
+  background: hsl(0, 0%, 100%);
   display: grid;
   justify-items: center;
   max-width: 280px;
@@ -28,7 +28,7 @@ body {
 
 .container img {
   border-radius: 6px 6px 6px 6px;
-  width: 100%;
+  max-width: 270px;
 }
 
 section p {
@@ -43,6 +43,7 @@ body p {
   padding: 10px;
   color: hsl(218, 44%, 22%);
   font-weight: bold;
+  font-size: larger;
 }
 
 .mensagem2 {
